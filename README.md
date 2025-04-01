@@ -6,7 +6,7 @@
 - [Data sources](#data-sources)
 - [Tool Used](#tool-used)
 - [Technology Used](#technology-used)
-- [Data Cleaning/Preparation](#data-cleaning)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Data Analysis](#data-analysis)
 
 ### Project Overview
@@ -30,7 +30,7 @@ The primary dataset used for this analysis is the "TechCorner_Sales_update.csv",
 - Scikit-Learn
 
 
-### Data Cleaning/Preparation
+### Data Cleaning and Preparation
 
 Before analysis, the dataset was cleaned and preprocessed to ensure accuracy:
 1. Data Loading and Inspection.
