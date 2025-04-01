@@ -3,6 +3,7 @@
 ## Table of Content
 
 - [Project Overview](#project-overview)
+- [Data sources](#data-sources)
 - [Data Analysis](#data-analysis)
 
 ### Project Overview
