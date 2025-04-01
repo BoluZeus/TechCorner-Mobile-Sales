@@ -39,6 +39,7 @@ Before analysis, the dataset was cleaned and preprocessed to ensure accuracy:
 2. Handled missing values – Removed or imputed missing data in customer details and sales records.
 3. Corrected inconsistencies – Standardized categorical variables (e.g., location names, gender labels).
 4. Converted data types – Ensured numerical columns (e.g., prices, ages) were in the correct format.
+5. Created new features – Extracted month from date.
 
 These steps ensured the dataset was clean, structured and ready for analysis.
 
@@ -56,9 +57,8 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 - Returning Customer Prediction – Built a model to predict if a customer is likely to return.
 - Customer Segmentation – Applied K-Means clustering to group customers by purchasing behavior.
 
-### Data Analysis
+### Data Analysis(Numerical Breakdown and Visualization)
 
-#### Numerical Breakdown
 1. Count of sales per month
    
 ```python
@@ -66,7 +66,19 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 monthly_sales = df.groupby("Month").size()
 print(monthly_sales)
 ```
+```
+df["Month"] = df["Date"].dt.to_period("M")
 
+plt.figure(figsize=(10,5))
+df.groupby("Month").size().plot(kind="line", marker="o", color="blue")
+
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Number of Sales")
+plt.grid(True)
+plt.show()
+```
+![GitHub image 1](https://github.com/user-attachments/assets/1dfc0b66-ac91-416b-997e-bc0d6b514eb8)
 
   
 
