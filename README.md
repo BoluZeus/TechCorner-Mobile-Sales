@@ -1,12 +1,17 @@
 # TechCorner Mobile Sales Analysis
 
+## Table of Content
+
+- [Project Overview](#project-overview)
+- [Data Analysis](#data-analysis)
+
 ### Project Overview
 
 This project analyzes 10 months of mobile sales data from a retail shop in Bangladesh to uncover customer behavior, sales trends, and marketing effectiveness. The dataset includes information on customer demographics, buying patterns, Facebook marketing reach, and returning customers.
 
 ### Data sources
 
-The primary dataset used for this analysis is the "TechCorner_Sales_update.csv", it contains detailed information about each sale made by the TechCorner over the last 10 months.
+The primary dataset used for this analysis is the "TechCorner_Sales_update.csv", it contains detailed information about each sale made by TechCorner over the last 10 months.
 
 ### Tool Used
 
@@ -46,6 +51,7 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 - Customer Segmentation – Applied K-Means clustering to group customers by purchasing behavior.
 
 ### Data Analysis
+
 #### Numerical Breakdown
 1. Count of sales per month
    
