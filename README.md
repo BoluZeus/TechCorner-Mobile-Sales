@@ -61,7 +61,7 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 
 #### Numerical Breakdown and Visualization
 
-1. Count of sales per month
+#### 1. Count of sales per month
    
 ```python
 
@@ -85,8 +85,19 @@ plt.show()
 ```
 ![GitHub image 1](https://github.com/user-attachments/assets/1dfc0b66-ac91-416b-997e-bc0d6b514eb8)
 
+Findings:
+- Sales started at 153 in May 2024 and grew steadily over the months.
+- By September 2024, sales reached 916, showing an upward trend.
 
-2. Sales Distribution by Customer Location
+Insight: The shop experienced consistent growth in sales, suggesting effective marketing or increased demand over time.
+
+Observations:
+- Sales increased steadily from May to September 2024.
+- There were no major drops, indicating a consistent demand for mobile phones.
+
+
+
+#### 2. Sales Distribution by Customer Location
 
 ```
 location_sales = df["Cus. Location"].value_counts()
@@ -109,7 +120,11 @@ plt.show()
 
 ![github image 2b](https://github.com/user-attachments/assets/0d000c5d-341b-443b-80f2-83a5f055602a)
 
+Findings:
+- Most customers came from Outside Rangamati (3000 sales).
+- Rangamati Sadar (2972 sales) and Inside Rangamati (2899 sales) had almost equal sales.
 
+Insight: The shop has strong reach outside the local region, meaning demand exists beyond Rangamati. Expanding delivery options could further boost sales.
 
 
 
