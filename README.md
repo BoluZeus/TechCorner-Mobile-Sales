@@ -6,7 +6,7 @@
 - [Data sources](#data-sources)
 - [Tool Used](#tool-used)
 - [Technology Used](#technology-used)
-- [Data Cleaning/Preparation](#data-cleaning-preparation)
+- [Data Cleaning/Preparation](#data-cleaning)
 - [Data Analysis](#data-analysis)
 
 ### Project Overview
