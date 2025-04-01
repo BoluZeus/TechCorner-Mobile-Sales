@@ -57,7 +57,9 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 - Returning Customer Prediction – Built a model to predict if a customer is likely to return.
 - Customer Segmentation – Applied K-Means clustering to group customers by purchasing behavior.
 
-### Data Analysis(Numerical Breakdown and Visualization)
+### Data Analysis
+
+#### Numerical Breakdown and Visualization
 
 1. Count of sales per month
    
@@ -66,6 +68,9 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 monthly_sales = df.groupby("Month").size()
 print(monthly_sales)
 ```
+![github image 1b](https://github.com/user-attachments/assets/0ec8516c-60b4-43b3-a88c-c5baa34a2c6f)
+
+
 ```
 df["Month"] = df["Date"].dt.to_period("M")
 
