@@ -1,4 +1,4 @@
-# TechCorner Mobile Sales Analysis
+![image](https://github.com/user-attachments/assets/97a959dc-55db-4773-9f7b-48fa64bb1920)# TechCorner Mobile Sales Analysis
 
 ## Table of Content
 
@@ -85,7 +85,31 @@ plt.show()
 ```
 ![GitHub image 1](https://github.com/user-attachments/assets/1dfc0b66-ac91-416b-997e-bc0d6b514eb8)
 
-  
+
+2. Sales Distribution by Customer Location
+
+```
+location_sales = df["Cus. Location"].value_counts()
+print(location_sales)
+```
+
+![github image 2](https://github.com/user-attachments/assets/218108c9-80b7-4a95-b6e9-5e740e85b184)
+
+
+```
+plt.figure(figsize=(6,5))
+sns.countplot(x=df["Cus. Location"], palette="coolwarm", order=df["Cus. Location"].value_counts().index)
+
+plt.title("Sales by Customer Location")
+plt.xlabel("Customer Location")
+plt.ylabel("Number of Sales")
+plt.xticks(rotation=45)
+plt.show()
+```
+
+![github image 2b](https://github.com/user-attachments/assets/0d000c5d-341b-443b-80f2-83a5f055602a)
+
+
 
 
 
