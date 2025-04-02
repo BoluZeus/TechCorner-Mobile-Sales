@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/97a959dc-55db-4773-9f7b-48fa64bb1920)# TechCorner Mobile Sales Analysis
+# TechCorner Mobile Sales Analysis
 
 ## Table of Content
 
