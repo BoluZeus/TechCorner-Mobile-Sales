@@ -71,7 +71,7 @@ print(monthly_sales)
 ![github image 1b](https://github.com/user-attachments/assets/0ec8516c-60b4-43b3-a88c-c5baa34a2c6f)
 
 
-```
+```python
 df["Month"] = df["Date"].dt.to_period("M")
 
 plt.figure(figsize=(10,5))
@@ -99,7 +99,7 @@ Observations:
 
 #### 2. Sales Distribution by Customer Location
 
-```
+```python
 location_sales = df["Cus. Location"].value_counts()
 print(location_sales)
 ```
@@ -107,7 +107,7 @@ print(location_sales)
 ![github image 2](https://github.com/user-attachments/assets/218108c9-80b7-4a95-b6e9-5e740e85b184)
 
 
-```
+```python
 plt.figure(figsize=(6,5))
 sns.countplot(x=df["Cus. Location"], palette="coolwarm", order=df["Cus. Location"].value_counts().index)
 
@@ -126,6 +126,33 @@ Findings:
 
 Insight: The shop has strong reach outside the local region, meaning demand exists beyond Rangamati. Expanding delivery options could further boost sales.
 
+#### 3. Age Distribution of Customers 
 
+```python
+age_stats = df["Age"].describe()
+print(age_stats)
+```
+![github image 3](https://github.com/user-attachments/assets/1e6ba9de-24c0-4f0f-8e0e-3cc8c4042678)
+
+
+```python
+plt.figure(figsize=(8,5))
+sns.histplot(df["Age"], bins=20, kde=True, color="skyblue")
+
+plt.title("Age Distribution of Customers")
+plt.xlabel("Age")
+plt.ylabel("Count")
+plt.grid(True)
+plt.show()
+```
+
+![github image 3b](https://github.com/user-attachments/assets/99888ee6-1c9d-4f62-a38c-c863b6c8f697)
+
+Findings:
+- The average age of buyers is 34 years.
+- Most customers are between 26 and 42 years old (middle 50% range).
+- The youngest buyer is 18, and the oldest is 50.
+
+Insight: Marketing efforts should focus on the 26-42 age group, as they represent the largest customer base.
 
 
