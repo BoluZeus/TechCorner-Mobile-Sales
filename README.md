@@ -23,14 +23,6 @@ The primary dataset used for this analysis is the "TechCorner_Sales_update.csv",
 
 - Jupyter notebook - Cleaning, Data Analysis, Creating reports
 
-### Technology Used 
-- Python
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-
 
 ### Data Cleaning and Preparation
 
@@ -51,11 +43,6 @@ These steps ensured the dataset was clean, structured and ready for analysis.
 - Top-Selling Phones – Identified the most popular mobile brands & models.
 - Pricing Trends – Analyzed price distribution and customer spending patterns.
 
-
-### Machine Learning Models
-
-- Returning Customer Prediction – Built a model to predict if a customer is likely to return.
-- Customer Segmentation – Applied K-Means clustering to group customers by purchasing behavior.
 
 ### Data Analysis
 
