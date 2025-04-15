@@ -142,4 +142,121 @@ Findings:
 
 Insight: Marketing efforts should focus on the 26-42 age group, as they represent the largest customer base.
 
+#### 4. Gender Distribution of Buyers
+
+```python
+# Count of sales by gender(Numerical Breakdown)
+gender_sales = df["Gender"].value_counts()
+print(gender_sales)
+```
+
+![github image 4a](https://github.com/user-attachments/assets/2be63110-97a6-4a32-b1c4-11861fddecb7)
+
+```python
+plt.figure(figsize=(6,6))
+df["Gender"].value_counts().plot.pie(autopct="%1.1f%%", colors=["lightblue", "lightcoral"])
+plt.title("Gender Distribution of Buyers")
+plt.ylabel("")  # Hide y-label
+plt.show()
+```
+
+![github image 4b](https://github.com/user-attachments/assets/85178c94-1bdf-4cc2-9ecb-9dabdea0589f)
+
+
+Findings:
+- Females (F): 4453 buyers (50.2%)
+- Males (M): 4418 buyers (49.8%)
+
+Insight: Sales are almost equally split between genders.
+Marketing strategies should cater to both male and female buyers equally.
+
+#### 5. Top 10 Most Sold Mobile Names
+
+```python
+# Top 10 most sold mobile models(Numerical Breakdown)
+top_10_mobiles = df["Mobile Name"].value_counts().nlargest(10)
+print(top_10_mobiles)
+```
+
+![github image 5a](https://github.com/user-attachments/assets/9fe8baae-ff13-4642-9786-93e4c33fd1b5)
+
+```python
+plt.figure(figsize=(10,5))
+
+top_mobiles = df["Mobile Name"].value_counts().nlargest(10)
+sns.barplot(x=top_mobiles.index, y=top_mobiles.values, palette="coolwarm")
+
+plt.title("Top 10 Most Sold Mobile Names")
+plt.xlabel("Mobile Name")
+plt.ylabel("Number of Units Sold")
+plt.xticks(rotation=45)
+plt.show()
+```
+
+![github image 5b](https://github.com/user-attachments/assets/2aadd22d-e279-4990-8d20-3d691a59a42d)
+
+Findings:
+- Moto G85 5G (8/128GB) is the best-selling model (560 units sold).
+- Samsung, Xiaomi, Google Pixel, and iPhone models also dominate the top 10.
+
+Insight:
+- Budget 5G models like Moto G85 5G & Galaxy M35 5G are very popular.
+- Premium models (Pixel 8 Pro, iPhone 16 Pro) also have strong demand.
+- The shop should keep stock of these models and focus promotions on these brands.
+
+#### 6. Sales Price Distribution
+
+```python
+# Statistics on selling price(Numerical Breakdown)
+price_stats = df["Sell Price"].describe()
+print(price_stats)
+```
+
+![github image 6a](https://github.com/user-attachments/assets/30228d4d-8bbf-4015-8927-82612164fed8)
+
+```python
+plt.figure(figsize=(8,5))
+sns.boxplot(x=df["Sell Price"], color="lightcoral")
+
+plt.title("Sales Price Distribution")
+plt.xlabel("Sell Price (BDT)")
+plt.show()
+```
+
+![github image 6b](https://github.com/user-attachments/assets/e6fbbd2f-6d6c-44b5-98bd-fcc2c70024dd)
+
+Findings:
+- Average phone price is 25,068 BDT.
+- Most phones are priced between 17,466 BDT and 25,777 BDT (middle 50% range).
+- The cheapest phone is 12,702 BDT, and the most expensive is 200,465 BDT.
+
+Insight:
+- The store mainly sells mid-range smartphones (17K - 25K BDT).
+- There are high-end sales (200K BDT), suggesting demand for premium models.
+- Pricing strategy should focus on both budget and premium segments.
+
+#### 7. Facebook Marketing Effectiveness
+
+```python
+# Count of customers who came from facebook(Numerical Breakdown)
+facebook_effectiveness = df["Does he/she Come from Facebook Page?"].value_counts()
+print(facebook_effectiveness)
+```
+
+![github image 7a](https://github.com/user-attachments/assets/5ff74e2d-9ef8-423f-8152-3aed3499775e)
+
+
+```python
+plt.figure(figsize=(4,4))
+sns.countplot(x=df["Does he/she Come from Facebook Page?"], palette="muted")
+
+plt.title("Facebook Marketing Effectiveness")
+plt.xlabel("Came from Facebook?")
+plt.ylabel("Count")
+plt.show()
+```
+
+![githu image 7b](https://github.com/user-attachments/assets/5d003d97-1e73-4d17-bc6f-6655194e8ed8)
+
+
 
