@@ -259,4 +259,57 @@ plt.show()
 ![githu image 7b](https://github.com/user-attachments/assets/5d003d97-1e73-4d17-bc6f-6655194e8ed8)
 
 
+#### 8. New vs Returning Customers
+
+
+```python
+# count New vs Returning Customers(Numerical Breakdown)
+returning_customers = df["Did he/she buy any mobile before?"].value_counts()
+print(returning_customers)
+```
+
+![github image 8a](https://github.com/user-attachments/assets/0fd1a972-a5b0-479d-8718-9c0d143a16b5)
+
+
+```pyhton
+plt.figure(figsize=(4,4))
+sns.countplot(x=df["Did he/she buy any mobile before?"], palette="pastel")
+
+plt.title("New vs. Returning Customers")
+plt.xlabel("Returning Customer?")
+plt.ylabel("Count")
+plt.show()
+```
+
+![github image 8b](https://github.com/user-attachments/assets/a69795b9-a97c-4022-be8b-83ab3a8e28a7)
+
+
+#### 9. Count of Facebook Followers
+
+```python
+# Distribution of customers following the facebook page (Numerical Breakdown)
+facebook_page = df["Does he/she Followed Our Page?"].value_counts()
+print(facebook_page)
+```
+
+![github image 9a](https://github.com/user-attachments/assets/e2fefd05-47ec-48ff-b1ef-e4bc8f71b67e)
+
+```python
+# Count of Facebook followers
+fb_follow_counts = df["Does he/she Followed Our Page?"].value_counts()
+
+# Plot
+plt.figure(figsize=(4, 4))
+sns.barplot(x=fb_follow_counts.index, y=fb_follow_counts.values, palette=['#3B9C9C', '#F08080'])
+plt.title("Distribution of Customers Following the Facebook Page")
+plt.xlabel("Follows Facebook Page")
+plt.ylabel("Number of Customers")
+plt.tight_layout()
+plt.show()
+```
+
+![github image 9b](https://github.com/user-attachments/assets/259116fe-f48d-4fad-b12c-b2a410ac73f2)
+
+
+
 
