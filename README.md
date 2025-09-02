@@ -7,7 +7,6 @@
 - [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Machine Learning Models](#machine-learning-models)
 - [Data Analysis](#data-analysis)
 
 ### Project Overview
