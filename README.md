@@ -4,8 +4,7 @@
 
 - [Project Overview](#project-overview)
 - [Data sources](#data-sources)
-- [Tool Used](#tool-used)
-- [Technology Used](#technology-used)
+- [Tools Used](#tools-used)
 - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Machine Learning Models](#machine-learning-models)
@@ -19,7 +18,7 @@ This project analyzes 10 months of mobile sales data from a retail shop in Bangl
 
 The primary dataset used for this analysis is the "TechCorner_Sales_update.csv", it contains detailed information about each sale made by TechCorner over the last 10 months.
 
-### Tool Used
+### Tools Used
 
 - Jupyter notebook - Cleaning, Data Analysis, Creating reports
 
