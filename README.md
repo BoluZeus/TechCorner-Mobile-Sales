@@ -117,7 +117,7 @@ Premium models (Pixel 8 Pro, iPhone 16 Pro) also feature in the top 10.
 
 The long right tail confirms meaningful premium phone demand.
 
-### 7. Revenue Analysis *(New)*
+### 7. Revenue Analysis
 | Metric | Value |
 |--------|-------|
 | **Total Revenue** | BDT 222,381,657 |
@@ -138,7 +138,7 @@ The long right tail confirms meaningful premium phone demand.
 - **75.3%** first-time buyers → strong acquisition
 - **24.7%** returning customers → retention opportunity
 
-### 10. Cross-Analyses *(New)*
+### 10. Cross-Analyses
 
 **Do Facebook customers spend more?**
 Yes — BDT 25,206 vs BDT 24,995 average. Facebook attracts quality buyers.
