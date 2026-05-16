@@ -40,6 +40,7 @@ The goal is to surface **actionable business insights** that can guide stock dec
 | **Rows** | 8,871 transactions |
 | **Period** | May 2024 – March 2025 (10 months) |
 | **Source** | TechCorner retail shop, Rangamati, Bangladesh |
+| **Currency** | All prices are in **Bangladeshi Taka (BDT)** — the dataset does not explicitly label the currency, but BDT is confirmed as the local currency of the shop's location |
 
 **Columns:**
 
@@ -117,7 +118,7 @@ Premium models (Pixel 8 Pro, iPhone 16 Pro) also feature in the top 10.
 
 The long right tail confirms meaningful premium phone demand.
 
-### 7. Revenue Analysis
+### 7. Revenue Analysis *(New)*
 | Metric | Value |
 |--------|-------|
 | **Total Revenue** | BDT 222,381,657 |
@@ -138,7 +139,7 @@ The long right tail confirms meaningful premium phone demand.
 - **75.3%** first-time buyers → strong acquisition
 - **24.7%** returning customers → retention opportunity
 
-### 10. Cross-Analyses
+### 10. Cross-Analyses *(New)*
 
 **Do Facebook customers spend more?**
 Yes — BDT 25,206 vs BDT 24,995 average. Facebook attracts quality buyers.
