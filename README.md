@@ -204,7 +204,7 @@ Make sure `TechCorner_Sales_update.csv` is in the same directory as the notebook
 
 ## 👤 Author
 
-**BoluZeus**  
+**Boluwatife OBISESAN**  
 Data Analyst | [GitHub Profile](https://github.com/BoluZeus)
 
 ---
