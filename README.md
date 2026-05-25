@@ -40,7 +40,6 @@ The goal is to surface **actionable business insights** that can guide stock dec
 | **Rows** | 8,871 transactions |
 | **Period** | May 2024 – March 2025 (10 months) |
 | **Source** | TechCorner retail shop, Rangamati, Bangladesh |
-| **Currency** | All prices are in **Bangladeshi Taka (BDT)** — the dataset does not explicitly label the currency, but BDT is confirmed as the local currency of the shop's location |
 
 **Columns:**
 
@@ -204,7 +203,7 @@ Make sure `TechCorner_Sales_update.csv` is in the same directory as the notebook
 
 ## 👤 Author
 
-**Boluwatife OBISESAN**  
+**BoluZeus**  
 Data Analyst | [GitHub Profile](https://github.com/BoluZeus)
 
 ---
